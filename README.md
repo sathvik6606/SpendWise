@@ -23,11 +23,11 @@ Track your income, expenses, budgets, savings goals, bills and financial insight
 
 ### Frontend
 
-https://YOUR-VERCEL-LINK.vercel.app
+https://spend-wise-beta-one.vercel.app/
 
 ### Backend API
 
-https://YOUR-RENDER-LINK.onrender.com
+https://spendwise-backend-22ab.onrender.com
 
 ---
 
