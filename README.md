@@ -156,7 +156,7 @@ The application follows a clean client-server architecture using React on the fr
 
 ## Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
