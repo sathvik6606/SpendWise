@@ -329,7 +329,7 @@ Frontend UI
 Clone the repository
 
 ```bash
-git clone https://github.com/sathvik6606/SpendWise.git
+git clone https://github.com/YOUR_USERNAME/SpendWise.git
 ```
 
 Navigate into the project
