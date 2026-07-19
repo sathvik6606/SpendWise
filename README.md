@@ -1,273 +1,463 @@
 <div align="center">
-  <h1>💰 SpendWise</h1>
-  <p><strong>A modern, full-stack personal finance tracker built with the MERN stack.</strong></p>
-  <p>Track expenses, set budgets, manage savings goals, and gain AI-like insights — all in one place.</p>
 
-  <p>
-    <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-    <img alt="Node.js" src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-    <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-    <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    <img alt="License" src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
-  </p>
+# 💰 SpendWise
+
+### A modern full-stack personal finance management platform built with the MERN stack.
+
+Track your income, expenses, budgets, savings goals, bills and financial insights from one centralized dashboard.
+
+---
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)
+![JWT](https://img.shields.io/badge/Auth-JWT-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-06B6D4?logo=tailwindcss)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 </div>
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Tech Stack](#️-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
-- [Future Improvements](#-future-improvements)
-- [License](#-license)
-
----
-
-## 🌟 Overview
-
-**SpendWise** is a production-ready personal finance management application that helps users take control of their money. It features a dark/light mode, real-time currency switching, data visualizations, recurring bills management, and a command-palette-style global search — all built on a secure JWT-authenticated REST API backed by MongoDB Atlas.
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---|---|
-| 📊 **Dashboard** | Real-time financial summary with income, expenses, savings KPIs and charts |
-| 💳 **Transactions** | Full CRUD with filtering, CSV export/import, and a detail slide-over panel |
-| 📁 **Budgets** | Category-based monthly budgets with visual progress indicators and alerts |
-| 🎯 **Goals** | Savings goal tracker with deadline, progress bar, and fund contributions |
-| 🧾 **Bills** | Recurring bill management with due dates and paid/upcoming status |
-| 📈 **Analytics** | Income vs expense line charts, category donut charts, and ranked spend lists |
-| 💡 **Insights** | AI-style textual financial insights derived from transaction data |
-| 📅 **Calendar** | Date picker showing financial events across transactions, goals, and bills |
-| 🔔 **Notifications** | In-app notification centre with mark-as-read and delete actions |
-| 🔍 **Command Palette** | `⌘K` global search across transactions, budgets, and goals |
-| 🌍 **Currency Switching** | Real-time currency change persisted to the user profile |
-| 🌙 **Dark / Light Mode** | System-aware theme with manual override |
-| 🔐 **Authentication** | Secure JWT-based registration and login |
-| 🗂️ **Profile Settings** | Update name, email, password, currency, and timezone |
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of the application here after deployment.
-
-| Dashboard | Transactions | Analytics |
-|---|---|---|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* |
-
-| Goals | Budgets | Notifications |
-|---|---|---|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* |
-
----
-
-## 🛠️ Tech Stack
+# 🌐 Live Demo
 
 ### Frontend
-- **React 19** — UI library
-- **Vite 8** — build tool and dev server
-- **Tailwind CSS 4** — utility-first styling
-- **Recharts** — data visualization
-- **React Router DOM 7** — client-side routing
-- **Axios** — HTTP client
-- **React Hook Form** — form management
-- **React Hot Toast** — notifications
-- **Lucide React** — icon library
 
-### Backend
-- **Node.js + Express 5** — REST API server
-- **Mongoose 9** — MongoDB ODM
-- **JSON Web Token (JWT)** — stateless authentication
-- **bcryptjs** — password hashing
-- **dotenv** — environment variable management
-- **CORS** — cross-origin resource sharing
+https://YOUR-VERCEL-LINK.vercel.app
 
-### Infrastructure
-- **MongoDB Atlas** — cloud database
-- **Vercel** — frontend hosting
-- **Render** — backend hosting
+### Backend API
+
+https://YOUR-RENDER-LINK.onrender.com
 
 ---
 
-## 📁 Project Structure
+# 📖 Overview
+
+SpendWise is a complete personal finance management platform designed to help users monitor their financial health through an intuitive dashboard.
+
+The application allows users to:
+
+- Track income and expenses
+- Create monthly budgets
+- Manage savings goals
+- Monitor recurring bills
+- View financial insights
+- Analyze spending patterns
+- Export financial data
+- Import transactions through CSV
+- Access everything securely using JWT Authentication
+
+The application follows a clean client-server architecture using React on the frontend and Express + MongoDB on the backend.
+
+---
+
+# ✨ Features
+
+## 🔐 Authentication
+
+- User Registration
+- Secure Login
+- JWT Authentication
+- Protected Routes
+- Password Encryption using bcrypt
+
+---
+
+## 📊 Dashboard
+
+- Total Balance
+- Total Income
+- Total Expenses
+- Total Savings
+- Cash Flow Analytics
+- Expense Breakdown Chart
+- Recent Transactions
+- Upcoming Bills
+
+---
+
+## 💳 Transaction Management
+
+- Add Transactions
+- Edit Transactions
+- Delete Transactions
+- Search Transactions
+- Expense Categories
+- Income Categories
+- CSV Import
+- CSV Export
+
+---
+
+## 💰 Budget Management
+
+- Create Monthly Budgets
+- Edit Budgets
+- Delete Budgets
+- Budget Progress Bars
+- Remaining Budget Calculation
+- Budget Limit Warnings
+
+---
+
+## 🎯 Savings Goals
+
+- Create Goals
+- Track Goal Progress
+- Goal Completion Percentage
+- Add Funds
+- Edit Goals
+- Delete Goals
+
+---
+
+## 📅 Bills Management
+
+- Create Bills
+- Due Date Tracking
+- Paid / Pending Status
+- Reminder Toggle
+- Bill Categories
+
+---
+
+## 🗓 Financial Calendar
+
+- Calendar View
+- Expense Timeline
+- Bill Timeline
+- Daily Financial Events
+
+---
+
+## 📈 Financial Insights
+
+- Spending Trends
+- Top Spending Category
+- Savings Rate
+- Largest Transaction
+- Average Daily Spending
+- Budget Performance
+
+---
+
+## ⚙ Settings
+
+- Light Mode
+- Dark Mode
+- System Theme
+- Currency Selection
+- Notification Settings
+- Data Export
+
+---
+
+# 🖼 Screenshots
+
+## Dashboard
+
+![Dashboard](images/dashboard.png)
+
+---
+
+## Transactions
+
+![Transactions](images/transactions.png)
+
+---
+
+## Budgets
+
+![Budgets](images/budgets.png)
+
+---
+
+## Savings Goals
+
+![Savings Goals](images/goals.png)
+
+---
+
+## Bills
+
+![Bills](images/bills.png)
+
+---
+
+## Calendar
+
+![Calendar](images/calendar.png)
+
+---
+
+## Insights
+
+![Insights](images/insights.png)
+
+---
+
+## Settings
+
+![Settings](images/settings.png)
+
+---
+
+# 🏗 Tech Stack
+
+## Frontend
+
+- React 19
+- React Router DOM
+- Axios
+- Tailwind CSS v4
+- React Hook Form
+- Recharts
+- Lucide React
+- React Hot Toast
+- XLSX
+
+---
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcryptjs
+- Multer
+- Cloudinary
+- Validator
+
+---
+
+## Database
+
+- MongoDB Atlas
+
+---
+
+## Deployment
+
+Frontend
+
+- Vercel
+
+Backend
+
+- Render
+
+Database
+
+- MongoDB Atlas
+
+---
+
+# 📂 Project Structure
 
 ```
-trackerexpense/
-├── backend/
-│   ├── config/
-│   │   └── db.js               # MongoDB connection
-│   ├── controllers/            # Route handler logic
-│   ├── middleware/
-│   │   └── authMiddleware.js   # JWT protect middleware
-│   ├── models/                 # Mongoose schemas
-│   ├── routes/                 # Express routers
-│   ├── scripts/
-│   │   └── seedDemoData.js     # Demo data seeder
-│   ├── utils/
-│   │   └── generateToken.js    # JWT generator
-│   ├── .env.example            # Environment variable template
-│   ├── package.json
-│   └── server.js               # App entry point
+SpendWise
 │
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── layout/         # Sidebar, Navbar, NotificationCenter
-│   │   │   ├── routing/        # ProtectedRoute
-│   │   │   ├── transactions/   # TransactionForm
-│   │   │   ├── budgets/        # BudgetForm
-│   │   │   ├── goals/          # GoalForm, ContributionForm
-│   │   │   └── ui/             # Reusable UI components
-│   │   ├── context/
-│   │   │   ├── AuthContext.jsx # Authentication state
-│   │   │   └── ThemeContext.jsx
-│   │   ├── hooks/
-│   │   │   └── useCurrency.js  # Global currency hook
-│   │   ├── lib/
-│   │   │   └── utils.js        # Utility functions
-│   │   ├── pages/              # Route-level page components
-│   │   ├── App.jsx
-│   │   └── main.jsx            # Axios baseURL configured here
-│   ├── .env.example
-│   ├── vercel.json             # Vercel SPA rewrite rules
-│   └── package.json
+├── backend
+│   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── scripts
+│   ├── utils
+│   └── server.js
 │
-└── .gitignore
+├── frontend
+│   ├── public
+│   ├── src
+│   ├── components
+│   ├── pages
+│   ├── hooks
+│   ├── context
+│   ├── services
+│   └── assets
+│
+└── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🔄 Application Flow
 
-### Prerequisites
+```
+User
 
-- Node.js ≥ 18.x
-- npm ≥ 9.x
-- A [MongoDB Atlas](https://cloud.mongodb.com) account
+↓
 
-### 1. Clone the repository
+React Frontend
+
+↓
+
+Axios API Calls
+
+↓
+
+Express Server
+
+↓
+
+JWT Authentication
+
+↓
+
+Controllers
+
+↓
+
+MongoDB Atlas
+
+↓
+
+Response
+
+↓
+
+Frontend UI
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/spendwise.git
-cd spendwise
+git clone https://github.com/YOUR_USERNAME/SpendWise.git
 ```
 
-### 2. Set up the Backend
+Navigate into the project
+
+```bash
+cd SpendWise
+```
+
+---
+
+## Backend
 
 ```bash
 cd backend
-cp .env.example .env
-# Edit .env with your MONGO_URI, JWT_SECRET, etc.
+
 npm install
+
 npm run dev
 ```
 
-### 3. Set up the Frontend
+---
+
+## Frontend
 
 ```bash
 cd frontend
-cp .env.example .env
-# Edit .env — set VITE_API_URL=http://localhost:4000
+
 npm install
+
 npm run dev
 ```
 
-The app will be running at `http://localhost:5173`.
+---
 
-### 4. Seed Demo Data (optional)
+# 🔑 Environment Variables
 
-```bash
-cd backend
-npm run demo
+Backend
+
+```
+MONGO_URI=
+
+JWT_SECRET=
+
+CLOUDINARY_CLOUD_NAME=
+
+CLOUDINARY_API_KEY=
+
+CLOUDINARY_API_SECRET=
 ```
 
-This populates a demo account (`demo@spendwise.app` / `demo12345`) with 6 months of realistic financial data.
+Frontend
+
+```
+VITE_API_URL=http://localhost:4000
+```
 
 ---
 
-## 🔑 Environment Variables
+# 📊 Charts Used
 
-### Backend (`backend/.env`)
+- Cash Flow Analysis
+- Expense Distribution
+- Budget Progress
+- Savings Progress
 
-| Variable | Description | Example |
-|---|---|---|
-| `MONGO_URI` | MongoDB Atlas connection string | `mongodb+srv://user:pass@cluster.mongodb.net/spendwise` |
-| `JWT_SECRET` | Secret key for signing JWTs | `a-long-random-secret-string` |
-| `PORT` | Server port (Render sets this automatically) | `4000` |
-| `FRONTEND_URL` | Your Vercel frontend URL (for CORS) | `https://spendwise.vercel.app` |
-
-### Frontend (`frontend/.env`)
-
-| Variable | Description | Example |
-|---|---|---|
-| `VITE_API_URL` | Your Render backend URL | `https://spendwise-api.onrender.com` |
+Powered by **Recharts**
 
 ---
 
-## ☁️ Deployment
+# 🔒 Security Features
 
-### Deploy Frontend to Vercel
-
-1. Push your repository to GitHub.
-2. Go to [vercel.com](https://vercel.com) → **New Project** → import your repository.
-3. Set **Root Directory** to `frontend`.
-4. Add environment variable: `VITE_API_URL` → your Render backend URL.
-5. Click **Deploy**.
-
-> The `vercel.json` file in the frontend directory handles SPA routing automatically.
-
-### Deploy Backend to Render
-
-1. Go to [render.com](https://render.com) → **New Web Service** → connect your repository.
-2. Set **Root Directory** to `backend`.
-3. Set **Build Command** to `npm install`.
-4. Set **Start Command** to `npm start`.
-5. Add environment variables:
-   - `MONGO_URI` — your MongoDB Atlas connection string
-   - `JWT_SECRET` — your JWT secret key
-   - `FRONTEND_URL` — your Vercel frontend URL (e.g. `https://spendwise.vercel.app`)
-6. Click **Create Web Service**.
-
-### MongoDB Atlas Setup
-
-1. Create a free cluster at [cloud.mongodb.com](https://cloud.mongodb.com).
-2. Go to **Database Access** → add a database user with a password.
-3. Go to **Network Access** → add `0.0.0.0/0` to allow access from Render.
-4. Click **Connect** → **Drivers** → copy the connection string.
-5. Replace `<password>` with your database user's password.
+- JWT Authentication
+- Password Hashing
+- Protected API Routes
+- Environment Variables
+- Secure Password Storage
+- MongoDB Validation
 
 ---
 
-## 🔮 Future Improvements
+# 📈 Performance Highlights
 
-- [ ] AI-powered spending recommendations using OpenAI API
-- [ ] Plaid or Razorpay bank account integration
-- [ ] Multi-currency portfolio tracking
-- [ ] Mobile app (React Native)
-- [ ] Recurring transaction automation
-- [ ] Budget sharing between family members
-- [ ] PDF report export
-- [ ] Two-factor authentication (2FA)
-- [ ] PWA support for offline usage
+- Modular MVC Architecture
+- Responsive UI
+- Optimized React Components
+- Reusable Components
+- RESTful APIs
+- Clean Folder Structure
 
 ---
 
-## 📄 License
+# 🎯 Future Improvements
 
-This project is licensed under the **MIT License**.
+- Email Verification
+- Forgot Password
+- Google Authentication
+- Recurring Transactions
+- Notifications
+- Mobile App
+- AI Spending Recommendations
+- Investment Tracker
+
+---
+
+# 👨‍💻 Author
+
+**Sathvik Sai**
+
+GitHub
+
+https://github.com/sathvik6606
+
+---
+
+# ⭐ Support
+
+If you like this project,
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+🛠 Contribute to improve SpendWise
 
 ---
 
 <div align="center">
-  <p>Built with ❤️ by <strong>Sathvik Sai</strong></p>
+
+### Thank you for visiting SpendWise ❤️
+
 </div>
