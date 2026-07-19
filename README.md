@@ -162,43 +162,43 @@ The application follows a clean client-server architecture using React on the fr
 
 ## Transactions
 
-![Transactions](images/transactions.png)
+![Transactions](screenshots/transactions.png)
 
 ---
 
 ## Budgets
 
-![Budgets](images/budgets.png)
+![Budgets](screenshots/budgets.png)
 
 ---
 
 ## Savings Goals
 
-![Savings Goals](images/goals.png)
+![Savings Goals](screenshots/goals.png)
 
 ---
 
 ## Bills
 
-![Bills](images/bills.png)
+![Bills](screenshots/bills.png)
 
 ---
 
 ## Calendar
 
-![Calendar](images/calendar.png)
+![Calendar](screenshots/calendar.png)
 
 ---
 
 ## Insights
 
-![Insights](images/insights.png)
+![Insights](screenshots/insights.png)
 
 ---
 
 ## Settings
 
-![Settings](images/settings.png)
+![Settings](screenshots/settings.png)
 
 ---
 
