@@ -186,7 +186,7 @@ The application follows a clean client-server architecture using React on the fr
 
 ## Calendar
 
-![Calendar](screenshots/Calendar.png)
+![Calendar](screenshots/calender.png)
 
 ---
 
